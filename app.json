@@ -1,0 +1,28 @@
+{
+  "name": "HASi-MD",
+  "description": "HASi-MD has been designed to make things easier and fun while using WhatsApp. 👨‍💻❤️",
+  "logo": "https://i.ibb.co/dTCVJJb/temp-image.jpg",
+  "keywords": ["HASimd", "bot", "whatsapp bot", "multi device", "HASi-md"],
+  "success_url": "/",
+
+  "env": {
+    "SESSION_ID": {
+            "description": "Type the Session-ID you got from scaning QR",
+            "required": true,
+            "value": "put session id here"
+        },
+    "MODE": {
+            "description": "Put button or nonbutton to change the mode",
+            "required": true,
+            "value": "button"
+        }
+    },
+         "buildpacks": [
+        {
+            "url": "https://github.com/heroku/heroku-buildpack-nodejs.git"
+        }
+     ],
+  "stack": "heroku-24"
+  
+  
+}
