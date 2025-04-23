@@ -1,4 +1,4 @@
-l
+
 <h1 align="center">HASi-MD 1.O</h1>
 
 <img src="https://i.imgur.com/dBaSKWF.gif" height="90" width="100%">
@@ -9,10 +9,12 @@ l
 <p 
   
 </p>
-
+<hr>
+<hr>
 ## 💡 FOLLOW OUR CHANAL
 
-
+<hr>
+<hr>
 
 <br>
 
@@ -22,7 +24,8 @@ l
 </div>
 
 <br>
-
+<hr>
+<hr>
 
 
 ## DEPLOY BY SESSION ID (Qr code)
@@ -51,8 +54,6 @@ l
 <br>
 <br>
 
-
-<div align="center">
  
   
 
