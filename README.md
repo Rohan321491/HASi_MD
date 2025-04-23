@@ -87,10 +87,7 @@ l
  
 
     
-## <a href="https://app.uffizzi.com/projects"><img src="https://telegra.ph/file/e464e609e43eb3dfdc144.png" alt="Deploy on Railway" width="170px"></a>
-</p>
- 
-## [![Run on Repl.it](https://repl.it/badge/github/quiec/whatsAlfa)](https://repl.it/github/VajiraTechOfficial/VAJIRA-MD-)
+
 
 
 
@@ -140,51 +137,5 @@ l
 
 
 
-## VAJIRA MD DEVELOPER TEAM
 
-| <a href="https://github.com/VajiraTechOfficial/VAJIRA-MD"><img src="https://pomf2.lain.la/f/aqi35mmg.jpg" width=90 height=90></a> | <a href="https://github.com/VajiraTechOfficial/VAJIRA-MD"><img src="https://pomf2.lain.la/f/yn4h3lb.jpg" width=90 height=90></a> | <a href="https://github.com/20070808lk"><img src="https://pomf2.lain.la/f/kph4trq.jpg" width=90 height=90></a> | <a href=""><img src="https://pomf2.lain.la/f/cezntw1.jpg" width=90 height=90></a> | <a href="https://github.com/VajiraTechOfficial/VAJIRA-MD"><img src="https://telegra.ph/file/87bf2bcb38abef47205ad.jpg" width=90 height=90></a>  |  <a href="https://github.com/VajiraTechOfficial/VAJIRA-MD"><img src="https://telegra.ph/file/aa52e76beeeee65cad24c.jpg" width=90 height=90></a> | <a href="https://github.com/VajiraTechOfficial/VAJIRA-MD"><img src="https://pomf2.lain.la/f/l66e44rx.jpg" width=90 height=90></a> | <a href="https://github.com/VajiraTechOfficial/VAJIRA-MD"><img src="https://pomf2.lain.la/f/ahwljn42.jpg" width=90 height=90></a> | <a href="https://github.com/VajiraTechOfficial/VAJIRA-MD"><img src="https://pomf2.lain.la/f/ud9j45sk.jpg" width=90 height=90></a> | <a href="https://github.com/VajiraTechOfficial/VAJIRA-MD"><img src="https://pomf2.lain.la/f/qa8i6chz.jpg" width=90 height=90></a> | <a href="https://github.com/VajiraTechOfficial/VAJIRA-MD"><img src="https://pomf2.lain.la/f/6f9toku3.jpg" width=90 height=90></a> | <a href="https://github.com/VajiraTechOfficial/VAJIRA-MD"><img src="https://pomf2.lain.la/f/1u5x6v6p.jpg" width=90 height=90></a> |
-|---|---|---|---|---|---|---|---|---|---|---|---|
-| **[Vajira T.D.D](https://github.com/VajiraTech)**</br>Founder & Developer</br> | **[Peter T.D.D](https://github.com/VajiraTech)**</br>  CO-Coder</br> | **[Panda T.D.D ](https://github.com/VajiraTech)**</br>Bug Suplier</br> | **[Rasiya999 T.D.D](https://github.com/VajiraTech)**</br>Tool Suplier | **[Theekshana T.D.D](https://github.com/VajiraTech)**</br>Group & Management | **[Rukshan T.D.D](https://github.com/VajiraTech)**</br> Bug Tester | **[Danidu T.D.D](https://github.com/VajiraTech)**</br>Logo Designer | **[Janiya T.D.D](https://github.com/VajiraTech)**</br> Tool Suplier | **[Didula T.D.D](https://github.com/VajiraTech)**</br>Bug Supler | **[Arrow T.D.D](https://github.com/VajiraTech)**</br>Bug Tester | **[Shen T.D.D](https://github.com/VajiraTech)**</br>Movie Controller | **[Ishu T.D.D](https://github.com/VajiraTech)**</br>Voice Helper |
-
-
-
-
-## Workflow Deploy Code 👇
-
-
-```
-name: Node.js CI
-
-on:
-  push:
-    branches:
-      - main
-  pull_request:
-    branches:
-      - main
-
-jobs:
-  build:
-
-    runs-on: ubuntu-latest
-
-    strategy:
-      matrix:
-        node-version: [20.x]
-
-    steps:
-    - name: Checkout repository
-      uses: actions/checkout@v3
-
-    - name: Set up Node.js
-      uses: actions/setup-node@v3
-      with:
-        node-version: ${{ matrix.node-version }}
-
-    - name: Install dependencies
-      run: npm install
-
-    - name: Start application
-      run: npm start
-```
-
+      
